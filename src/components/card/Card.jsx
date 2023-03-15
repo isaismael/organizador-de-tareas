@@ -1,8 +1,9 @@
+import "./card.css"
 
-const Card = () => {
+export const Card = (props) => {
   return (
-    <div>Card</div>
+    <div className='card'>
+        {props.children}
+    </div>
   )
 }
-
-export default Card
